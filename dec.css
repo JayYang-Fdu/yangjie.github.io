@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2020-03-31 14:46:07
+ * @version $Id$
+ */
+img {
+		width: 220px;
+		height: 240px;
+		border: none;
+   		vertical-align: middle;
+   		border: 0;
+	}
+	.header{
+		background-color: #103c83;
+		height: 240px;
+		width: 1400px;
+		margin: auto;
+		font-size: 10px;
+	}
+	.info{
+		display: inline-block;
+		height: 240px;
+		text-align: center;
+		vertical-align: top;
+	}
+	.header .info a{	
+		width: 100px;
+		text-decoration: none;
+		outline: none;
+		display: inline-block;
+		font-size: 20px;
+		color: #fff;
+		margin: 50px;
+		border-radius: 10px;
+	}
+	.nav a:hover{
+		background-color: orange;
+	}
+	h1{
+		color: #fff;
+		font-family: '宋体';
+		font-size: 35px;
+		height: 50px;
+	}
+	.title{
+		margin-top: 45px;
+		width: 700px;
+		height: 80px;
+	}
+	.introduce .search{
+		display: inline-block;
+		width: 200px;
+		height: 37px;
+		margin-left: 270px;
+	}
+	.introduce input{
+		display: inline-block;
+		width: 150px;
+    	height: 40px;
+    	line-height: 27px;
+    	background: #3e64ab;
+    	color: #fff;
+    	border: none;
+    	font-size: 14px;
+    	margin-top: 4px;
+    	vertical-align: middle;
+	}
+	.introduce img{
+		width: 40px;
+		height: 38px;
+		vertical-align: middle;
+		margin-top: 4px;
+		margin-left: 280px;
+		margin-right: -3px;
+	}
+	.introduce{
+		display: inline-block;
+		width: 474px;
+		height: 240px;
+		vertical-align: top;
+		margin: 0;
+	}
+	.header .introduce .email p{
+		color: #fff;
+		font-size: 14px;
+		height: 25px;
+		margin-top: 40px;
+	}
+	.header .introduce .qq p{
+		color: #fff;
+		font-size: 14px;
+		height: 25px;
+	}
+	.header .introduce .wechat p{
+		color: #fff;
+		font-size: 14px;
+		height: 25px;
+	}
+	.header .introduce .phone p{
+		color: #fff;
+		font-size: 14px;
+		height: 25px;
+	}
+	.top {
+		width: 1350px;
+		height: 35px;
+    	line-height: 30px;
+    	margin: 10px 50px;
+    	border-bottom: 1px solid #ddd
+	}
+	.txt p{
+		text-indent: 2em;
+		font-family: '微软雅黑';
+		line-height: 40px;
+		margin:15px 200px 15px 200px;
+	}
+	.txt h2{
+		text-align: center;
+		font-family: '宋体';
+	}
+	.txt li{
+		margin-left: 400px; 
+		padding-top: 50px;
+		text-align: left;
+		font-family: '微软雅黑';
+		font-size: 20px;
+	}
+	.footer{
+		    min-width: 1170px;
+   	 		margin: auto;
+   	 		height: 84px;
+   	 		background: #154a79;
+   	 		border: 1px dotted #1b4389;
+	}
+	.footer .fl p{
+		color: #fff;
+		margin-left: 100px; 
+	}
+	.txte p{
+		width: 800px;
+		text-indent: 2em;
+		font-family: '微软雅黑';
+		line-height: 40px;
+		margin:15px 200px 15px 200px;
+		text-align: right;
+	}
+	.txte h2{
+		text-align: center;
+		font-family: '宋体';
+		margin:15px 200px 15px 200px;
+	}
+	.txte h3{
+		width: 850px;
+		text-align: center;
+		margin:15px 200px 15px 200px;
+	}
