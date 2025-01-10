@@ -5,18 +5,26 @@
     box-sizing: border-box;
 }
 
-/* 背景和字体设置 */
+/* 页面容器 */
 body {
-    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;  /* 水平居中 */
+    align-items: flex-start;  /* 垂直方向从顶部对齐 */
+    min-height: 100vh;  /* 保证最小高度占满屏幕 */
+    font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
+}
+
+/* 容器样式 */
+.container {
+    width: 80%;  /* 设置容器宽度，或者你可以设置最大宽度 */
+    text-align: left;  /* 保证内容左对齐 */
+    padding: 20px;
 }
 
 /* 头部样式 */
 .header {
     background-color: #fff;
-    padding: 20px;
     text-align: center;
 }
 
@@ -26,7 +34,6 @@ body {
     border-radius: 50%;
 }
 
-/* 标题样式 */
 .title h1 {
     font-size: 2.5em;
     margin: 20px 0;
@@ -47,72 +54,13 @@ body {
     color: #007bff;
 }
 
-/* 联系方式 */
-.introduce p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-}
-
 /* 个人简介和副标题 */
 .txte h2, .txte h3 {
     font-size: 1.8em;
     margin: 20px 0 10px 0;
-    text-align: left;
 }
 
 .txte p {
     font-size: 1.1em;
-    text-align: left;
     margin-bottom: 15px;
-}
-
-/* 按钮样式 */
-input[type="button"] {
-    padding: 10px 20px;
-    font-size: 1.1em;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-input[type="button"]:hover {
-    background-color: #0056b3;
-}
-
-/* 页脚样式 */
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.footer .fl p {
-    font-size: 0.9em;
-}
-
-/* 样式调整响应式 */
-@media (max-width: 768px) {
-    .header img {
-        width: 120px;
-        height: 120px;
-    }
-
-    .title h1 {
-        font-size: 2em;
-    }
-
-    .txte h2, .txte h3 {
-        font-size: 1.6em;
-    }
-
-    .txte p {
-        font-size: 1em;
-    }
-
-    .nav a {
-        font-size: 1em;
-    }
 }
