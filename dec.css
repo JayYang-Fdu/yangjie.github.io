@@ -1,158 +1,118 @@
-@charset "UTF-8";
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2020-03-31 14:46:07
- * @version $Id$
- */
-img {
-		width: 220px;
-		height: 240px;
-		border: none;
-   		vertical-align: middle;
-   		border: 0;
-	}
-	.header{
-		background-color: #103c83;
-		height: 240px;
-		width: 1400px;
-		margin: auto;
-		font-size: 10px;
-	}
-	.info{
-		display: inline-block;
-		height: 240px;
-		text-align: center;
-		vertical-align: top;
-	}
-	.header .info a{	
-		width: 100px;
-		text-decoration: none;
-		outline: none;
-		display: inline-block;
-		font-size: 20px;
-		color: #fff;
-		margin: 50px;
-		border-radius: 10px;
-	}
-	.nav a:hover{
-		background-color: orange;
-	}
-	h1{
-		color: #fff;
-		font-family: '宋体';
-		font-size: 35px;
-		height: 50px;
-	}
-	.title{
-		margin-top: 45px;
-		width: 700px;
-		height: 80px;
-	}
-	.introduce .search{
-		display: inline-block;
-		width: 200px;
-		height: 37px;
-		margin-left: 270px;
-	}
-	.introduce input{
-		display: inline-block;
-		width: 150px;
-    	height: 40px;
-    	line-height: 27px;
-    	background: #3e64ab;
-    	color: #fff;
-    	border: none;
-    	font-size: 14px;
-    	margin-top: 4px;
-    	vertical-align: middle;
-	}
-	.introduce img{
-		width: 40px;
-		height: 38px;
-		vertical-align: middle;
-		margin-top: 4px;
-		margin-left: 280px;
-		margin-right: -3px;
-	}
-	.introduce{
-		display: inline-block;
-		width: 474px;
-		height: 240px;
-		vertical-align: top;
-		margin: 0;
-	}
-	.header .introduce .email p{
-		color: #fff;
-		font-size: 14px;
-		height: 25px;
-		margin-top: 40px;
-	}
-	.header .introduce .qq p{
-		color: #fff;
-		font-size: 14px;
-		height: 25px;
-	}
-	.header .introduce .wechat p{
-		color: #fff;
-		font-size: 14px;
-		height: 25px;
-	}
-	.header .introduce .phone p{
-		color: #fff;
-		font-size: 14px;
-		height: 25px;
-	}
-	.top {
-		width: 1350px;
-		height: 35px;
-    	line-height: 30px;
-    	margin: 10px 50px;
-    	border-bottom: 1px solid #ddd
-	}
-	.txt p{
-		text-indent: 2em;
-		font-family: '微软雅黑';
-		line-height: 40px;
-		margin:15px 200px 15px 200px;
-	}
-	.txt h2{
-		text-align: center;
-		font-family: '宋体';
-	}
-	.txt li{
-		margin-left: 400px; 
-		padding-top: 50px;
-		text-align: left;
-		font-family: '微软雅黑';
-		font-size: 20px;
-	}
-	.footer{
-		    min-width: 1170px;
-   	 		margin: auto;
-   	 		height: 84px;
-   	 		background: #154a79;
-   	 		border: 1px dotted #1b4389;
-	}
-	.footer .fl p{
-		color: #fff;
-		margin-left: 100px; 
-	}
-	.txte p{
-		width: 800px;
-		text-indent: 2em;
-		font-family: '微软雅黑';
-		line-height: 40px;
-		margin:15px 200px 15px 200px;
-		text-align: right;
-	}
-	.txte h2{
-		text-align: center;
-		font-family: '宋体';
-		margin:15px 200px 15px 200px;
-	}
-	.txte h3{
-		width: 850px;
-		text-align: center;
-		margin:15px 200px 15px 200px;
-	}
+/* 通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 背景和字体设置 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 头部样式 */
+.header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* 标题样式 */
+.title h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.nav a:hover {
+    color: #007bff;
+}
+
+/* 联系方式 */
+.introduce p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* 个人简介和副标题 */
+.txte h2, .txte h3 {
+    font-size: 1.8em;
+    margin: 20px 0 10px 0;
+    text-align: left;
+}
+
+.txte p {
+    font-size: 1.1em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* 按钮样式 */
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* 页脚样式 */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer .fl p {
+    font-size: 0.9em;
+}
+
+/* 样式调整响应式 */
+@media (max-width: 768px) {
+    .header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .title h1 {
+        font-size: 2em;
+    }
+
+    .txte h2, .txte h3 {
+        font-size: 1.6em;
+    }
+
+    .txte p {
+        font-size: 1em;
+    }
+
+    .nav a {
+        font-size: 1em;
+    }
+}
